@@ -17,6 +17,7 @@ const Cast = () => {
             <img
               src={`https://image.tmdb.org/t/p/w500/${profile_path}`}
               alt={name}
+              width="120px"
             />
             <p>{name}</p>
             <p>Character: {character}</p>

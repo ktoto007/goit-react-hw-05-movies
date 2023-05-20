@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { SharedLayout } from './SharedLayout';
+import { SharedLayout } from './SharedLayout/SharedLayout';
 // import Home from 'pages/Home';
 // import Movies from 'pages/Movies';
 // import MovieListItem from 'pages/MovieListItem';
@@ -9,7 +9,7 @@ import { SharedLayout } from './SharedLayout';
 
 const Home = lazy(() => import('pages/Home'));
 const Movies = lazy(() => import('pages/Movies'));
-const MovieListItem = lazy(() => import('pages/MovieListItem'));
+const MovieListItem = lazy(() => import('pages/movieListItem/MovieListItem'));
 const Cast = lazy(() => import('./cast/Cast'));
 const Reviews = lazy(() => import('./reviews/Reviews'));
 
